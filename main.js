@@ -137,7 +137,7 @@ function jump() {
     password = document.getElementById("completePass").value;
     var uu = `パスワード生成しました！%0aPW:`;
     var kk = "%0a"
-    var template = "http://twitter.com/share?url=http://127.0.0.1:5500/&text=" + uu + password + kk + "&hashtags=パスワードつくるやつ";
+    var template = "http://twitter.com/share?url=https://hihumikan.github.io/&text=" + uu + password + kk + "&hashtags=パスワードつくるやつ";
     //console.log(template);
     //console.log(password);
     location.href = template;
